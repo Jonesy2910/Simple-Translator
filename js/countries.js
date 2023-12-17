@@ -1,0 +1,17 @@
+const countries = {
+    "ar-SA": "Arabic",
+    "de-DE": "German",
+    "el-GR": "Greek",
+    "en-GB": "English",
+    "es-ES": "Spanish",
+    "fr-FR": "French",
+    "it-IT": "Italian",
+    "ja-JP": "Japanese",
+    "nl-NL": "Dutch",
+    "no-NO": "Norwegian",
+    "pt-PT": "Portuguese",
+    "ru-RU": "Russian",
+    "sv-SE": "Swedish",
+    "tr-TR": "Turkish",
+    "uk-UA": "Ukrainian",
+}

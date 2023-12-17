@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <title>Translator</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="wrapper">
+
+        <div class="text-input">
+          <textarea spellcheck="false" class="from-text" placeholder="Entered Text"></textarea>
+          <textarea spellcheck="false" readonly disabled class="to-text" placeholder="Translated Text"></textarea>
+        </div>
+
+        <ul class="dropdowns">
+
+          <li class="row from">
+            <select></select>
+          </li>
+
+          <li class="row to">
+            <select></select>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <button>Translate!</button>
+
+    </div>
+
+    <script src="js/countries.js"></script>
+    <script src="js/script.js"></script>
+
+  </body>
+</html>
